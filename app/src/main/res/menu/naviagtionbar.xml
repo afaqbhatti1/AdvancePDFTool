@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_create_new_folder_24"
+        android:title="@string/create_new_pdfs" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_baseline_remove_red_eye_24"
+        android:title="@string/view_pdfs" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_baseline_beenhere_24"
+        android:title="@string/enhance_created_pdfs" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/baseline_crop_rotate_24"
+        android:title="@string/modify_existing_pdfs" />
+
+    <item
+        android:id="@+id/navigation_moreoptions"
+        android:icon="@drawable/ic_baseline_read_more_24"
+        android:title="@string/more_options" />
+
+</menu>

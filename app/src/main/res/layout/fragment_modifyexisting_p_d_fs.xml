@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="18dp"
+    android:background="@drawable/home_linearlayout_topcorner_round"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/modify_existing_pdfs"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <pdf.pdftool.customviews.OurCardView
+            android:id="@+id/merge_pdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:option_icon="@drawable/ic_merge_pdf"
+            app:option_text="@string/merge_pdf" />
+
+        <pdf.pdftool.customviews.OurCardView
+            android:id="@+id/split_pdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:option_icon="@drawable/ic_split_pdf"
+            app:option_text="@string/split_pdf" />
+
+
+            <pdf.pdftool.customviews.OurCardView
+                android:id="@+id/invert_pdf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                app:option_icon="@drawable/ic_invert_pdf"
+                app:option_text="@string/invert_pdf" />
+
+            <pdf.pdftool.customviews.OurCardView
+            android:id="@+id/compress_pdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:option_icon="@drawable/ic_compress_pdf"
+            app:option_text="@string/compress_pdf" />
+
+        <pdf.pdftool.customviews.OurCardView
+            android:id="@+id/remove_duplicates_pages_pdf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            app:option_icon="@drawable/ic_remove_duplicate"
+            app:option_text="@string/remove_duplicate_pages" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

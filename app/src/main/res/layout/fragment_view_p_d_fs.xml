@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_marginHorizontal="18dp"
+android:background="@drawable/home_linearlayout_topcorner_round"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/view_pdfs"
+        android:fontFamily="@font/sarabunbold"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <pdf.pdftool.customviews.OurCardView
+            android:id="@+id/view_files"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:option_icon="@drawable/ic_view_files"
+            app:option_text="@string/viewFiles" />
+
+        <pdf.pdftool.customviews.OurCardView
+            android:id="@+id/view_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:option_icon="@drawable/ic_history"
+            app:option_text="@string/history" />
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

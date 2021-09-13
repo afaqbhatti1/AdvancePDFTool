@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/psycho studio/advancepdftool-10/Advance PDF tool 0025 fragments/Advance PDF tool 0025/app/src/main/res/drawable/gradientcateg.xml" value="0.1962962962962963" />
+        <entry key="..\:/psycho studio/advancepdftool-10/Advance PDF tool 0025 fragments/Advance PDF tool 0025/app/src/main/res/drawable/gradientcolor.xml" value="0.1962962962962963" />
+        <entry key="..\:/psycho studio/advancepdftool-10/Advance PDF tool 0025 fragments/Advance PDF tool 0025/app/src/main/res/drawable/home_linearlayout_topcorner_round.xml" value="0.17685185185185184" />
+        <entry key="..\:/psycho studio/advancepdftool-10/Advance PDF tool 0025 fragments/Advance PDF tool 0025/app/src/main/res/drawable/ic_photo_filter_black_24dp.xml" value="0.17407407407407408" />
+        <entry key="..\:/psycho studio/advancepdftool-10/Advance PDF tool 0025 fragments/Advance PDF tool 0025/app/src/main/res/layout/about_us_fragment.xml" value="0.1" />
+        <entry key="..\:/psycho studio/advancepdftool-10/Advance PDF tool 0025 fragments/Advance PDF tool 0025/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/psycho studio/advancepdftool-10/Advance PDF tool 0025 fragments/Advance PDF tool 0025/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/psycho studio/advancepdftool-10/Advance PDF tool 0025 fragments/Advance PDF tool 0025/app/src/main/res/layout/picture_to_pdf_fragment.xml" value="0.1" />
+        <entry key="..\:/psycho studio/advancepdftool-10/Advance PDF tool 0025 fragments/Advance PDF tool 0025/app/src/main/res/menu/activity_main_drawer.xml" value="0.1537037037037037" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

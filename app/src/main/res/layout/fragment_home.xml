@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="18dp"
+    android:id="@+id/createnewpdf"
+    android:background="@drawable/home_linearlayout_topcorner_round"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="@string/create_new_pdfs"
+                android:fontFamily="@font/sarabunbold"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="15dp"
+                android:layout_marginStart="10dp">
+
+                <pdf.pdftool.customviews.OurCardView
+                    android:id="@+id/images_to_pdf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    app:option_icon="@drawable/ic_image_to_pdf"
+                    app:option_text="Images to PDF"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:spanCount="1"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?attr/customDividerColor"/>
+                <pdf.pdftool.customviews.OurCardView
+                    android:id="@+id/text_to_pdf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    app:option_icon="@drawable/ic_text_to_pdf"
+                    app:option_text="@string/text_to_pdf" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?attr/customDividerColor"/>
+                <pdf.pdftool.customviews.OurCardView
+                    android:id="@+id/qr_barcode_to_pdf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    app:option_icon="@drawable/ic_qr_barcode"
+                    app:option_text="@string/qr_barcode_pdf" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?attr/customDividerColor"/>
+                <pdf.pdftool.customviews.OurCardView
+                    android:id="@+id/excel_to_pdf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    app:option_icon="@drawable/ic_excel_to_pdf"
+                    app:option_text="@string/excel_to_pdf" />
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

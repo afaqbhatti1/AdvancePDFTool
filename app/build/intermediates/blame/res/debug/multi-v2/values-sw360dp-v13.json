@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\psycho studio\\advancepdftool-10\\Advance PDF tool 0025 fragments\\Advance PDF tool 0025\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\afaqb\\.gradle\\caches\\transforms-2\\files-2.1\\ab1539ea50c16f253e40a4de035948d2\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\afaqb\\.gradle\\caches\\transforms-2\\files-2.1\\6b767960654a81b531f2e261fa9bd2d5\\color-picker-view-1.4.0\\res\\values-sw360dp\\values-sw360dp.xml",
+                    "from": {
+                        "startLines": "4,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "192,262,469",
+                        "endLines": "4,5,11",
+                        "endColumns": "69,68,12",
+                        "endOffsets": "257,326,652"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "127,197,266",
+                        "endLines": "3,4,8",
+                        "endColumns": "69,68,12",
+                        "endOffsets": "192,261,449"
+                    }
+                }
+            ]
+        }
+    ]
+}
